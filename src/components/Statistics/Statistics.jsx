@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types';
 import { List, Item } from './Statistics.styled';
 
-const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
+const Statistics = ({ good, neutral, bad, total, positivePersentage }) => {
   return (
     <List>
       <Item>Good: {good}</Item>
       <Item>Neutral: {neutral}</Item>
       <Item>Bad: {bad}</Item>
       <Item>Total: {total}</Item>
-      <Item>Positive feedback: {positivePercentage}%</Item>
+      <Item>Positive feedback: {positivePersentage}%</Item>
     </List>
   );
 };
@@ -18,7 +18,7 @@ Statistics.propTypes = {
   neutral: PropTypes.number.isRequired,
   bad: PropTypes.number.isRequired,
   total: PropTypes.number.isRequired,
-  positivePercentage: PropTypes.number.isRequired,
+  positivePersentage: PropTypes.number.isRequired,
 };
 
 export default Statistics;

@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 export const SectionBox = styled.div`
   text-align: center;
-  margin: 10px;
+  margin: 30px;
   padding: 8px;
   width: 320px;
   background-color: beige;
