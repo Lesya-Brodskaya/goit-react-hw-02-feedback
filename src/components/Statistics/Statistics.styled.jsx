@@ -11,6 +11,7 @@ export const List = styled.ul`
 `;
 
 export const Item = styled.li`
+  list-style: none;
   margin-bottom: 5px;
   font-size: 16px;
   font-weight: 200;
